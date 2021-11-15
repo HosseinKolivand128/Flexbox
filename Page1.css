@@ -1,0 +1,21 @@
+.navbar {
+  border: solid turquoise 10px;
+}
+.navUl {
+  display: flex;
+  border: solid blue 7px;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: auto;
+}
+.navUl li {
+  font-size: 1.4rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: solid red 5px;
+  justify-content: space-around;
+}
+.navUl a:hover {
+  background-color: gray;
+  color: rgb(53, 212, 14);
+}
