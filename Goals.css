@@ -38,7 +38,6 @@ div {
 
 div:hover {
   background-color: skyblue;
-  /* border-top: skyblue; */
   transition: 0.5s;
 }
 
@@ -49,4 +48,18 @@ div:hover {
 }
 .image {
   width: 100px;
+}
+span {
+  background-color: rgb(255, 173, 80);
+  color: rgb(0, 17, 255);
+  font-style: bold;
+}
+main {
+  box-sizing: content-box;
+  border: gray solid 0.1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 25px;
+
+  margin: 3% 8% 0 8%;
 }
