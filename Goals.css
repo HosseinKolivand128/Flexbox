@@ -2,12 +2,8 @@
   border-bottom: rgb(207, 206, 206) solid 0.2rem;
 }
 
-.navbar {
-}
-
 .navUl {
   display: flex;
-  /* border: solid blue 7px; */
   list-style-type: none;
   justify-content: space-around;
   flex-wrap: nowrap;
@@ -23,4 +19,34 @@
 .navUl a:hover {
   background-color: gold;
   color: rgb(14, 139, 212);
+}
+
+.goals {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  padding: 1%;
+}
+div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: silver;
+  border-radius: 5%;
+  padding: 1%;
+}
+
+div:hover {
+  background-color: skyblue;
+  /* border-top: skyblue; */
+  transition: 0.5s;
+}
+
+.goals figure {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.image {
+  width: 100px;
 }
