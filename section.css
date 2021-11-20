@@ -1,1 +1,77 @@
+.header {
+  border-bottom: rgb(207, 206, 206) solid 0.2rem;
+}
 
+.navbar {
+}
+
+.navUl {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: auto;
+}
+.navUl li {
+  font-style: italic;
+  background-color: rgba(204, 202, 202, 0.788);
+  font-size: 1.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+}
+.navUl a:hover {
+  background-color: gold;
+  color: rgb(14, 139, 212);
+}
+
+img {
+  width: 150px;
+}
+
+.Sec1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+.Sec1 > section:hover {
+  background-color: orange;
+  transition: 0.5s;
+}
+
+.Sec1 > section {
+  background-color: silver;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+
+figure {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+figcaption {
+  font-weight: bold;
+  padding-top: 1.5em;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  border: black solid 0.3em;
+  border-radius: 10px;
+  margin: 7% 12% 5% 12%;
+  min-width: fit-content;
+}
+
+table {
+  background-color: burlywood;
+  border-radius: 5px;
+  width: 100%;
+}
+td {
+  border: teal solid;
+}
