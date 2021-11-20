@@ -1,1 +1,65 @@
+.header {
+  border-bottom: rgb(207, 206, 206) solid 0.2rem;
+}
 
+.navUl {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: auto;
+}
+.navUl li {
+  font-style: italic;
+  background-color: rgba(204, 202, 202, 0.788);
+  font-size: 1.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+}
+.navUl a:hover {
+  background-color: gold;
+  color: rgb(14, 139, 212);
+}
+
+.goals {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  padding: 1%;
+}
+.goals section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: silver;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.goals :hover {
+  background-color: skyblue;
+  transition: 0.5s;
+}
+
+.goals figure {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.image {
+  width: 100px;
+}
+span {
+  background-color: rgb(255, 173, 80);
+  color: rgb(0, 17, 255);
+  font-style: bold;
+}
+main {
+  box-sizing: content-box;
+  border: gray solid 0.1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 25px;
+
+  margin: 3% 8% 0 8%;
+}
